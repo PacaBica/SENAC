@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo sobre Eventos com JavaScript</title>
+</head>
+<body>
+    <!--o evento ex onclick, profissionalmente, deve ficar no JS e não no html 
+    então, ao invés de 
+    <img src="../presente-fechado.gif" alt="Presente Fechado" onclick="abrirFechar()" id="presente">
+    vamos deixar como abaixo, sem ele  /// p.s.: no html on(algumacoisa) é indicativo de evento. 
+    No JS não aparece on, este é substituído por addEventListener-->
+    <figure>
+        <img src="../presente-fechado.gif" alt="Presente Fechado" id="presente">        
+    </figure>
+
+    <!--JavaScript-->
+    <script>
+        function teste() {
+            alert('Você clicou na imagem');
+        }
+/*o window.onload é para ele primeiro carregar a página e em seguida ler o */
+        window.onload = function() {
+            presente = document.querySelector('#presente');
+            presente.addEventListener("click", t => {
+                if (presente.alt == 'Presente Fechado') {
+                presente.src="../presente-aberto.gif";
+                presente.alt="Presente Aberto";
+            }
+            else {
+                presente.src="../presente-fechado.gif";
+                presente.alt="Presente Fechado";
+            }
+            });
+        }
+        /**/
+        function abrirFechar() {
+            presente = document.querySelector('#presente');
+            if (presente.alt == 'Presente Fechado') {
+                presente.src="../presente-aberto.gif";
+                presente.alt="Presente Aberto";
+            }
+            else {
+                presente.src="../presente-fechado.gif";
+                presente.alt="Presente Fechado";
+            }
+        }
+    </script>
+</body>
+</html>

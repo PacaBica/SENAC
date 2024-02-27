@@ -1,0 +1,36 @@
+html {
+    font: 15pt Arial;
+    background-color: rgba(56, 56, 56,0.8);
+}
+
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 200px auto 200px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+    border: #273747 1px solid;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #273747;
+}
+
+.botao {
+	background-color: #273747;
+	color: white;
+	padding: 6px;
+	box-shadow: 1px 1px 1px #aaaaaa;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#media {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+

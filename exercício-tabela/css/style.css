@@ -1,0 +1,27 @@
+table, tr, td, th {
+    border: 1px solid #000;
+    font-size: 21px;
+}
+
+caption {
+    font-size: 25px;
+}
+
+thead {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+tfoot {
+    font-size: 25px;
+    background-color: azure;
+    text-align: center;
+}
+
+.cor {
+    background-color: rgb(151, 172, 160);
+}
+
+.guitarra {
+    color: blue;
+}
