@@ -1,3 +1,9 @@
+h1 {
+    color: #ffffffe2;
+}
+div {
+    background-color: rgb(15, 97, 134);
+}
 @media (min-width: 576px) { 
     h1 {
         color: red;
