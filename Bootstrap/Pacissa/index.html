@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,32 +10,250 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-secondary tex-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">Pacissa - Surpresas</a>
-            <button class="navbar tex-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bd-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="toggle navigation">
+            <button class="navbar-toggler tex-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bd-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li>Portifólio</li>
-                    <li>Sobre a Pacissa</li>
-                    <li>Contato</li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">Portifólio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre
+                            a Pacissa</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header>
-        <div>
-            <img class="masthead-heading" src="assets/img/artesa.jfif" alt="">
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <img class="masthead-heading" src="assets/avatar.svg" alt="">
             <h1>Pacissa - Surpresas</h1>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="masthead-subheading font-weight-light mt-0">Artesanato em feltro, tecido e o que a imaginação permitir!</p>
         </div>
     </header>
-    
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portifólio</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justifly-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justifly-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/amigu.jfif" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justifly-content-center h-100 w-100">
+                            <div class="portifolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/bolsascro.jfif" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justifly-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/bolsastec.jfif" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justifly-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/chinelos.jfif" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justifly-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/feltro.jfif" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justifly-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/necessaire.jfif" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="page-section-heading text-center tex-uppercase text-white">Sobre a Pacissa</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ms-auto"><p>Mussum Ipsum, cacilds vidis litro abertis.  Detraxit consequat et quo num tendi nada. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Paisis, filhis, espiritis santis.</p></div>
+                <div class="col-lg-4 me-auto"><p>Mussum Ipsum, cacilds vidis litro abertis.  Detraxit consequat et quo num tendi nada. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Paisis, filhis, espiritis santis.</p></div>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <i class="fas fa-download me-2"></i>
+                    Free Download!
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="page-section" id="contact">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contato</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justifly-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <div class="form-floating mb-3">
+                        <input class="form-control" id="name" type="text" placeholder="Insira seu nome..." data-sb-validations="required" />
+                        <label for="name">Nome completo</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">Necessário um nome.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="nome@exemplo.com" data-sb-validations="required,email" />
+                            <label for="email">Seu e-mail</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Necessário um e-mail válido.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Este e-mail não é válido.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(12) 99123-4567" data-sb-validations="required" />
+                            <label for="phone">Seu telefone</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Necessário um número de telefone.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Escreva sua mensagem aqui..." style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Sua mensagem</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Favor escrever sua mensagem.</div>
+                        </div>
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                            <div class="fw-bolder">Dados enviados com sucesso!</div>
+                            Para acessar, entre aqui 
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                        </div>
+                        
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erro de envio!</div></div>
+                            <button class="btn btn-primary btn-xl disabled">Enviar</button>                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="tex-uppercase mb-4">Localização</h4>
+                <p class="lead mb-0">
+                    Av. São João, 475
+                    <br />
+                    Jardim Apolo
+                    <br />
+                    CEP 12277-456
+                    <br />
+                    São José dos Campos - SP
+                </p>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="tex-uppercase mb-4">Siga-nos aqui também</h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/pacissa.surpresas?mibeztid=ZbWKwL"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+            </div>
+            <div class="col-lg-4">
+                <h4 class="text-uppercase mb-4">Pacissa Surpresas</h4>
+                <p class="lead mb-0">
+                    Nossos trabalhos são personalizados e feitos com muito carinho.
+                    <br />
+                    Você vai se surpreender!
+                </p>
+            </div>
+        </div>
+        </div>        
+    </footer>
+    <div>
+        <div class="portifolio-modal modal fade" id="portifolioModal1" tabindex="-1" aria-labelledby="portifolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justifly-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/amigu.jfif" alt="..." />
+                                    <p>Mussum Ipsum, cacilds vidis litro abertis.  Detraxit consequat et quo num tendi nada.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fechar janela
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
 </body>
+
 </html>
